@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="search">
+        <input type="text" class="input-field" placeholder="Search" id="input-field">
+        <button class="btn" id="btn" onclick="Search()">Search</button>
+    </div>
+    <div class="loading">
+        <div class="loader" id="loader"></div>
+    </div>
+    <div class="container" id="container">
+        <div class="details">
+            <h1 class="title" id="title">RRR</h1>
+            <p>Released on: <span id="release"></span></p>
+            <p>Director: <span id="director"></span></p>
+            <p>Actors: <span id="actor"></span></p>
+            <p>Genre: <span id="genre"></span></p>
+            <p>Desc: <span id="desc"></span></p>
+            <p>Box Office Collection: <span id="collection"></span></p>
+            <p>Awards: <span id="awards"></span></p>
+            <p>writer: <span id="writer"></span></p>
+        </div>
+        <div class="poster">
+            <img class="img" id="img" src="https://m.media-amazon.com/images/M/MV5BODUwNDNjYzctODUxNy00ZTA2LWIyYTEtMDc5Y2E5ZjBmNTMzXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg"></img>
+            <div class="ratting">IMDB: <span id="imdbr">7.8</span></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
